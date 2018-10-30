@@ -1,0 +1,28 @@
+header {
+    border: solid;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 2%;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 20%;
+}
+#corps {
+
+    display: flex !important;
+    justify-content: center!important;
+    margin-top: 10%;
+
+}
+
+footer {
+    border: solid;
+    text-align: center;
+    margin-top: 24%;
+    border-radius: 25px;
+
+
+}
+

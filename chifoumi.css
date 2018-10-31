@@ -1,19 +1,28 @@
+#principal {
+    background-image: url("fond_ecran_licorne.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 header {
+
     border: solid;
     text-align: center;
     border-radius: 25px;
     margin-top: 2%;
 }
 
+
 h3 {
     text-align: center;
-    padding-bottom: 20%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    font-family: Georgia !important;
 }
 #corps {
 
     display: flex !important;
     justify-content: center!important;
-    margin-top: 10%;
+    margin-top: 5%;
 
 }
 

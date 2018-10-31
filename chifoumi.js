@@ -31,7 +31,7 @@ pierre.addEventListener('click',function () {
         document.getElementById('resultat').innerHTML = "you lose";
         b += 1;
         document.getElementById('histo_lose').innerHTML = b;
-    } else {
+    } else if ( Ordinateur === 3 ) {
         document.getElementById('resultat').innerHTML = "you win";
         a += 1;
         document.getElementById('histo_win').innerHTML = a;
@@ -55,7 +55,7 @@ feuille.addEventListener('click', function () {
         document.getElementById('resultat').innerHTML = "égalité";
         c += 1;
         document.getElementById('histo_ega').innerHTML = c;
-    } else {
+    } else if ( Ordinateur === 3 ) {
         document.getElementById('resultat').innerHTML = "you lose";
         b += 1;
         document.getElementById('histo_lose').innerHTML = b;
@@ -77,7 +77,7 @@ ciseaux.addEventListener('click', function () {
         document.getElementById('resultat').innerHTML = "you win";
         a += 1;
         document.getElementById('histo_win').innerHTML = a;
-    } else {
+    } else if ( Ordinateur === 3 ) {
         document.getElementById('resultat').innerHTML = "égalité";
         c += 1;
         document.getElementById('histo_ega').innerHTML = c;
